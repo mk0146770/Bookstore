@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<style>
+
+
+
+.header2
+  {
+    
+    
+    position:fixed;
+    
+    background-color:rgb(210, 248, 202);
+     border-bottom: 1px solid black;
+    
+    left:0;
+    right:0;
+    
+    height:83px;
+    
+    
+    top:61px;
+    
+    display:flex;
+    
+    
+    
+    align-items:center;
+    justify-content:center;
+    
+    
+    
+    z-index: 100;
+    
+   
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header1
+{
+
+
+position: fixed;
+
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+background-color: white;
+
+left: 0;
+right: 0;
+top: 0;
+
+border-bottom: 1px solid  ;
+
+
+
+height: 60px;
+
+}
+
+.navv{
+
+
+
+background-color: rgbA(0,0,0,0.07);
+
+
+align-items: center;
+
+display: flex;
+
+height: 185px;
+
+justify-content: space-between;
+margin-top: 60px ;
+margin-left: -6px;
+margin-right: -6px;
+
+
+
+
+
+}
+
+
+.B{
+display: grid; row-gap: 50px; margin-top: 18px;
+grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 16px;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 750px){
+
+
+
+.B{
+
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+}
+
+@media (max-width: 500px){
+
+
+
+.B{
+
+grid-template-columns: 1fr 1fr ;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+  </head>
+  <body style="height:2000px; margin-top: 145px;
+  
+  font-family: Arial;
+  
+  
+  ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header1">
+
+
+
+
+<div>
+<img src="A.png" >
+</div>
+<div style="display: flex; flex: 1; align-items: center; justify-content: center;">
+<input type="text" placeholder="   Search products..." style="height: 38px; border-radius: 15px; border: none; box-shadow: 1px 1px 5px rgbA(0,0,0,0.05);
+background-color: rgbA(0,0,0,0.05); flex: 1;
+max-width: 380px;
+">
+
+
+
+
+
+<button style="   border-radius: 15px; margin-left: -20px; height: 45px; width: 50px;     background-color: green; color: white;">
+<img src="c.svg" style="height: 27px; color: white;">
+</button>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;   width: 290px;  flex-shrink: 0; margin-right: 10px;      ">
+
+<div >
+<img src="L.jpg" style="height: 20px;">
+
+
+</div>
+<div style="text-decoration: underline;">
+
+<a   style="cursor: pointer;"   href="https://search.brave.com/search?q=book+store+loaction&summary=1&conversation=1508473027f7c3bbf9f70a&view=full&map_src=c&loc_id=loc4W5Z2WMJSAA7EBC4HTRR6KKR7IBAV76QOAAAAAAA%3D&bbox=31.048%2C29.782%2C31.287%2C30.219" target="_blank">
+Find a book store
+</a>
+
+
+
+</div>
+<div style="position: relative;">
+
+
+
+
+
+
+
+
+&#128092;
+
+<div style="width:  10px; border-radius: 5px ; height: 10px; justify-content: center; font-size: 10px;        display:flex ;      color: white; background-color: black;    position: absolute; right: 0; top: 0;">
+
+0
+
+</div>
+
+
+
+</div>
+<div style="position: relative;">
+
+&#129293;
+
+<div style="width:  10px; border-radius: 5px ; height: 10px; justify-content: center; font-size: 10px;        display:flex ;      color: white; background-color: black;    position: absolute; right: 0; top: 0;">
+
+0
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div>
+<a href="signup.html" target="_blank">
+<button style=" cursor: pointer;         background-color: green; color: white; border: none; height: 33px; border-radius: 9px; width: 65px;">
+
+Log in
+
+</button>
+
+</a>
+
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navv">
+
+
+
+
+
+<h1 style="font-weight: bold;   margin-left: 70px;      font-family: Arial; display: inline-block; ">
+
+   Products
+
+
+
+
+</h1>
+
+
+<div style="margin-right: 50px;">
+Home 
+&#8594;
+  
+<span style="color: rgb(9, 169, 9);">
+
+Products </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div style="display: fixed;   justify-content: center; align-items: center;  ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<div  class="header2">
+      
+      
+      
+      <a  target="_blank"       href="Home2.html" style="text-decoration:none;">
+      <div style="cursor: pointer;   color: black;   "  >
+        
+        Home
+        
+        
+        
+      </div>
+      </a>
+      <div style="margin-left:19px; color: green;">
+        
+        Products
+        
+        
+        
+      </div>
+      
+            <div style="margin-left:19px;">
+        
+        Blog
+        
+        
+        
+      </div>
+      
+      <div style="margin-left:19px;">
+       
+        Contact
+        
+        
+        
+      </div>
+            <div style="margin-left:19px;">
+        
+        
+        About us
+        
+        
+      </div>
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section    class="B"    >
+
+
+<div>
+<div>
+  <a href="details4.html" target="_blank" style="cursor: pointer;">
+<img src="xxx.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Pieter du Toit </p>
+
+<p style="font-family: Arial; font-weight: bold;">
+  
+
+
+The Stellen bosch Mafia
+
+
+
+
+
+</p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">50.23$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div>
+<div>
+  <a target="_blank" href="details2.html" style="cursor: pointer;">
+<img src="BBB.webp" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Kristin Hannah </p>
+
+<p style="font-family: Arial; font-weight: bold;">Summer Island </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">90.00$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div>
+  <a href="details.html" style="cursor: pointer;" target="_blank">
+<img src="CCC.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Mel Robbins </p>
+
+<p style="font-family: Arial; font-weight: bold;">The Let Them Theory </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">120.00$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div>
+  <a href="details3.html" target="_blank" style="cursor: pointer; ">
+<img src="DDD.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Steven Bartlett </p>
+
+<p style="font-family: Arial; font-weight: bold;">The Diary of a CEO </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">85.00$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div><a style="cursor: pointer;" target="_blank" href="details5.html">
+<img src="FFF.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Tony Leon </p>
+
+<p style="font-family: Arial; font-weight: bold;">Being There </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">79.56$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div>
+  <a href="details6.html" target="_blank" style="cursor: pointer;">
+<img src="EEE.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Tony Leon </p>
+
+<p style="font-family: Arial; font-weight: bold;">Being There </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">120.00$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div>
+  <a style="cursor: pointer;" href="details7.html" target="_blank">
+<img src="yyy.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Tony Leon </p>
+
+<p style="font-family: Arial; font-weight: bold;">Being There </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">120.00$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div>
+<div>
+  <a href="details8.html" target="_blank" style="cursor: pointer;">
+<img src="zzz.jpg" style="width: 100%;">
+</a>
+</div>
+<div style="margin-left: 12px;">
+<p style=" font-family: Arial;             color: green; font-size: 13px;"> Tony Leon </p>
+
+<p style="font-family: Arial; font-weight: bold;">Being There </p>
+
+<p style=" font-family: Arial;         color: green;font-weight: bold; ">79.56$ </p>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+</body>
+
+
+
+
+
+
+
+</html>
