@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -257,7 +268,7 @@ Find a book store
 
 <span style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"> Enter your full name </span>
 
-<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;" class="Y">
 
 
 
@@ -271,7 +282,7 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
 
 > Enter your email </span>
 
-<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;" class="YY">
 
 
 <span
@@ -283,7 +294,7 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
 
 > Enter your password </span>
 
-<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;"  class="YYY">
 
 
 
@@ -298,7 +309,7 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
 
 > confirm your password </span>
 
-<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;" class="YYYY">
 
 
   
@@ -318,7 +329,7 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
  > Enter your Date of birth </span>
 
 
-<input type="text"  placeholder="  Day-Month-year   "                     style="            margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text"  placeholder="  Day-Month-year   "                     style="            margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;" class="YYYYY">
 
 
 
@@ -341,16 +352,79 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
 </span>
 
   
-<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;">
+<input type="text" style="margin-left: 5px;  margin-bottom: 4px; margin-left: 9px;      width: 250px; height: 20px; display: block;" class="YYYYYY">
 
 
 
 
-  <button style=" margin-top:6px; margin-bottom:6px;     border:none;   height:35px; width:69px;        margin-left:8px; margin-bottom:15px; color:white; background-color:green; cursor:pointer;">  submit    </button>
+  <button style=" margin-top:6px; margin-bottom:6px;     border:none;   height:35px; width:69px;        margin-left:8px; margin-bottom:15px; color:white; background-color:green; cursor:pointer;"
+  
+  onclick="
+  
+
+if(!document.querySelector('.Y').value){
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  else if(!document.querySelector('.YY').value)
+  {
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  else if(!document.querySelector('.YYY').value)
+  {
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  else if(!document.querySelector('.YYYY').value)
+  {
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  else if(!document.querySelector('.YYYYY').value)
+  {
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  else if(!document.querySelector('.YYYYYY').value)
+  {
+
+  document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  "
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  >  submit    </button>
 
 
 
-
+<p class="YYYYYYY" style="color: red;">         </p>
 
 
 
