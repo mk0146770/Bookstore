@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 
@@ -365,35 +354,65 @@ style="display: block; margin-left: 9px; margin-top: 6px; margin-bottom: 4px;"
 if(!document.querySelector('.Y').value){
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
   
+} ,4000);
+
   
   }
   else if(!document.querySelector('.YY').value)
   {
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
   
+} ,5000);
+
   
   }
   else if(!document.querySelector('.YYY').value)
   {
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
   
+} ,5000);
+
   
   }
   else if(!document.querySelector('.YYYY').value)
   {
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
   
+} ,5000);
+
   
   }
   else if(!document.querySelector('.YYYYY').value)
   {
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
+  setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
   
+} ,5000);
+
   
   }
   else if(!document.querySelector('.YYYYYY').value)
@@ -401,9 +420,34 @@ if(!document.querySelector('.Y').value){
 
   document.querySelector('.YYYYYYY').innerHTML='please enter all required fields!'
   
+setTimeout(() => {
+document.querySelector('.YYYYYYY').innerHTML='';
+
+
+  
+} ,5000);
+
+
+
+
   
   }
+  else{
+
+document.querySelector('.xx').innerHTML=`Welccome back, ${document.querySelector('.Y').value} !`;
   
+setTimeout(() => {
+document.querySelector('.xx').innerHTML='';
+
+
+  
+} ,5000);
+
+
+
+
+
+  }
   
   
   
@@ -426,7 +470,7 @@ if(!document.querySelector('.Y').value){
 
 <p class="YYYYYYY" style="color: red;">         </p>
 
-
+<p class="xx" style="font-weight: bold;">  </p>
 
 
 
@@ -443,6 +487,15 @@ if(!document.querySelector('.Y').value){
 
 
 </div>
+
+
+
+
+
+
+
+
+
 
 
 </body>
